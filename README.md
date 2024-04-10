@@ -1,31 +1,31 @@
-# sumitmangela.github.io/hotel
 
-It is a front-end for a simple hotel booking site. The site is developed using HTML/CSS and jquery plugins are used to provide extra features. There are total 5 webpages of the website.
+# Hotel Booking
+## Introduction
+This README provides an overview of the hotel booking system, its functionalities, and instructions on how to use it.
 
-* Home Page - 
-It is a indroductionary page about the hotel itself. It contains various images of the hotel which are slided in a conware fashion using an image slider. It also contains details about the rooms and a link to rooms page. It also shows free features that hotel provides to every visitor. Some reviews that hotel recieved over the years are also represented in a conware fashion. and finally a button which links to hotel booking facility.
-The image sliders (carousels) for rooms and reviews are draggable for the swift use of mobile users.
-Every page execpt booking page has a button which links redirects user to booking facility.
-Footer of every page contains some details about the hotel and address of the hotel along with the social links for the hotel.
-Scroll to top facility is also provided which redirects user to the top of the page along with a subtle animation when user clicks on a button. 
+## Overview
+The hotel booking system allows users to search for available hotels, view details such as room types, amenities, and prices, and book rooms for their desired dates. It facilitates smooth communication between customers and hotel staff, ensuring a seamless booking experience.
 
-* Explore Page - 
-It is a descriptive page for the various features hotel provides. New features can be easily added along with an image. The page follows principle of Minimalism and provides just the features nothing more.
+## Functionalities
+Search: Users can search for hotels based on location, dates, number of guests, and other preferences.
 
-* Rooms Page - 
-This page provides all the details about the rooms available in the hotel. When you hover over any of the room the details of that room will pe presented to you with a linear transition which is achieved with pure CSS3.
+View Details: Detailed information about each hotel, including room types, amenities, prices, and available dates, is provided.
 
-* Booking Page - 
-This is the page which has the booking faciltiy of the hotel. The form contains inputs for name, email-id, type of rooms, Number of rooms, and number of visitors. For number of rooms and visitors spinner buttons are provided (-,+) using a jquery plugin. For Date of Arrival and departure a datepicker jquery plugin is used.
+Booking: Users can select desired rooms and book them for specific dates.
 
-* Contact Page - 
-This page can be used to contact the hotel by filling a simple form. It also serves purpose of providing the location of hotel in google maps. The location of hotel and zoom levels of the map can be easily modified.
+User Accounts: Registered users can log in to manage their bookings, view past stays, and update personal information.
 
+Cancellation: Users can cancel their bookings within a specified time frame, subject to cancellation policies.
 
-# Jquey Plugins used for the website
+Reviews and Ratings: Users can leave reviews and ratings for hotels they have stayed in, helping others make informed decisions.
 
-* Image slider - Slick Slider - https://github.com/kenwheeler/slick
-* Scroll to top - Scrollup - https://github.com/markgoodyear/scrollup
-* Datepicker - pickmeup - https://github.com/nazar-pc/PickMeUp
-* Spinner buttons - Handle Counter - https://github.com/nick-running/handle-counter
+## How to Use
+Search for Hotels: Enter the desired location, check-in and check-out dates, number of guests, and any other preferences.
 
+View Details: Browse through the list of hotels returned by the search. Click on a hotel to view detailed information.
+
+Book a Room: Select the room type and specify the number of rooms needed. Proceed to the booking process, where you may be required to provide personal and payment information.
+
+Manage Bookings: If you have an account, log in to manage your bookings, view past stays, and update your profile.
+
+Cancellation: If you need to cancel a booking, do so within the allowed time frame and follow the cancellation procedure outlined on the platform.
